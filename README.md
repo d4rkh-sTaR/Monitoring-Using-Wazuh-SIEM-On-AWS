@@ -5,11 +5,11 @@
 For this project we are going to be installing Wazuh SIEM on AWS to monitor CloudTrail logs.
 The project will be divided into 5 sections:
 
-1. [[#Installing Wazuh]]
-2. [[#Setting up firewall rules to access the Wazuh EC2 instance]]
-3. [[#Configuring Amazon CloudTrail]]
-4. [[#Configuring IAM roles and policies, allowing Wazuh EC2 instance access to the CloudTrail logs]]
-5. [[#Configuring Wazuh to fetch logs from the CloudTrail S3 bucket]]
+1. Installing Wazuh
+2. Setting up firewall rules to access the Wazuh EC2 instance
+3. Configuring Amazon CloudTrail
+4. Configuring IAM roles and policies, allowing Wazuh EC2 instance access to the CloudTrail logs
+5. Configuring Wazuh to fetch logs from the CloudTrail S3 bucket
 
 ## Installing Wazuh
 
