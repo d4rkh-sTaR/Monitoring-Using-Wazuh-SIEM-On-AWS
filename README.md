@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+So I have been tinkering with AWS for a while and I thought about setting up Wazuh to monitor CloudTrail Logs. This project is just about setting up Wazuh with CloudTrail, I'll be doing all the other cool things in later projects.
+
 For this project we are going to be installing Wazuh SIEM on AWS to monitor CloudTrail logs.
 The project will be divided into 5 sections:
 
