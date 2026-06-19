@@ -107,6 +107,8 @@ Now that we have attached the IAM role to the Wazuh EC2 instance, let's check if
 
 Now as we can see here in the AWS API call response that the user is not authorized to perform the `s3:ListAllMyBuckets` API call but we can successfully list the contents of the CloudTrail S3 bucket.
 
+Now I could have just attached the `AmazonS3ReadOnlyAccess` policy instead of creating a custom policy  and made my life easier but we should always follow the **"Principle of Least Privilege"** which states that any user or service should get the least amount of privileges to just get the work done. This ensures that if that service or user account is compromised the attacker wouldn't have any extra privileges to cause more damage.  
+
 ## Configuring Wazuh to fetch logs from the CloudTrail S3 bucket
 
 Now we have to configure Wazuh to fetch logs from the CloudTrail S3 bucket we have setup.
