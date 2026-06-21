@@ -7,7 +7,7 @@ So I have been tinkering with AWS for a while and I thought about setting up Waz
 The project will be divided into 5 sections:
 
 1. Installing Wazuh
-2. Setting up firewall rules to access the Wazuh EC2 instance
+2. Editing AWS Security Group inbound rules to access the Wazuh EC2 instance
 3. Configuring Amazon CloudTrail
 4. Configuring IAM roles and policies, allowing Wazuh EC2 instance access to the CloudTrail logs
 5. Configuring Wazuh to fetch logs from the CloudTrail S3 bucket
@@ -34,7 +34,7 @@ We can just paste this one command from the [Wazuh Quickstart](https://documenta
 
 The Wazuh installation is successful!!! Just remember to give it ample storage or else the installation will fail. (Speaking from experience)
 
-## Setting up firewall rules to access the Wazuh EC2 instance
+## Editing AWS Security Group inbound rules to access the Wazuh EC2 instance
 
 I forgot to allow HTTPs access (Allow port 443) which will be used to access the Wazuh interface, we will be doing it now.
 
@@ -116,7 +116,7 @@ We can do this by adding the following in the the `/var/ossec/etc/ossec.conf` co
 
 ![Wazuh Docs AWS integration](./5.Configuring-Wazuh/img1.png)
 
-you can find this official documentation page of Wazuh [here](https://documentation.wazuh.com/current/proof-of-concept-guide/aws-infrastructure-monitoring.html). It has a lot of content on many other cool things such as `Network IDS Integration`, `Integration with VirtusTotal`, `File Integrity Monitoring`, and many more. We will cover these things in later projects, let's focus on this right now!!!
+you can find this official documentation page of Wazuh [here](https://documentation.wazuh.com/current/proof-of-concept-guide/aws-infrastructure-monitoring.html). It has a lot of content on many other cool things such as `Network IDS Integration`, `Integration with VirusTotal`, `File Integrity Monitoring`, and many more. We will cover these things in later projects, let's focus on this right now!!!
 
 ![Wazuh Docs AWS integration](./5.Configuring-Wazuh/img2.png)
 
