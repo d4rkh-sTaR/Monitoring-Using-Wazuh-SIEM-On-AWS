@@ -1,4 +1,4 @@
-# Wazuh integration with AWS CloudTrail
+# Project: Wazuh integration with AWS CloudTrail
 
 ## Project Overview
 
