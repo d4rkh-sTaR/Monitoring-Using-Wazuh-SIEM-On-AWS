@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+![Project Overview Image](./project-overview.png)
+
 So I have been tinkering with AWS for a while and I thought about setting up Wazuh to monitor CloudTrail Logs. This project is just about setting up Wazuh with CloudTrail, I'll be doing all the other cool things in later projects.
 
 The project will be divided into 5 sections:
