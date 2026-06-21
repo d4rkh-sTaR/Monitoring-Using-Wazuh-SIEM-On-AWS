@@ -1,4 +1,4 @@
-# Monitoring CloudTrail logs using Wazuh SIEM
+# Wazuh integration with AWS CloudTrail
 
 ## Project Overview
 
