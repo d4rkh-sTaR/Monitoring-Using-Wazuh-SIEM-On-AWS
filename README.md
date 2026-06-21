@@ -20,11 +20,11 @@ We will first go and launch an Amazon Linux EC2 instance for the Wazuh SIEM.
 
 We will be choosing the `c7i-flex.large` instance type as it has enough resources to run Wazuh for our lab environment and it is not too expensive. As Wazuh requires a bit more space we will be taking 30 GB of EBS storage.
 
-After a few minutes we can ssh into the EC2 instance using the ssh private key we downloaded during the creation of it.
+After a few minutes we can SSH into the EC2 instance using the SSH private key we downloaded during the creation of it.
 
 ![Logging into Wazuh Server](./1.Installing-Wazuh/img3.png)
 
-Now as we can see that we are successfully connected to the Wazuh EC2 instance via ssh, we can start installing Wazuh.
+Now as we can see that we are successfully connected to the Wazuh EC2 instance via SSH, we can start installing Wazuh.
 
 ![Creating EC2 instance](./1.Installing-Wazuh/img4.png)
 
